@@ -1,10 +1,10 @@
-# 📱 Mesa Graphics Drivers for Termux
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Termux](https://img.shields.io/badge/Environment-Termux-alpha.svg)](https://termux.dev)
 [![Platform: Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/lytheria)
 
+# 📱 Mesa Graphics Drivers for Twrmux
 
 A comprehensive guide and compilation toolkit for deploying, configuring, and optimizing the **Mesa 3D Graphics Library** within **Termux** environments. This project aims to bridge the gap between Android's hardware limitations and Linux desktop emulation, enabling high-performance hardware acceleration (OpenGL, Vulkan, OpenCL) for proot-distros, hardware-level wrappers, and standalone X11/Wayland applications.
 
