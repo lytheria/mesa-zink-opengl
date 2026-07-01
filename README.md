@@ -53,8 +53,7 @@ pkg install termux-x11 && wget https://github.com/lytheria/mesa-termux/releases/
 ---
 
 ## 🧑‍💻 Author
-
-Managed and maintained by **[Lytheria Celestine Velicia]** ([@lytheria](https://github.com/lytheria)).
+Managed and maintained by ([@lytheria Celestine Velicia](https://github.com/lytheria)).
 
 If you have questions, feature requests, or want to collaborate on optimizing Mesa for Termux, feel free to open an issue or connect via my [GitHub Profile](https://github.com/lytheria).
 ---
