@@ -1026,9 +1026,9 @@ from distutils.version import StrictVersion
 import mako
 assert StrictVersion(mako.__version__) >= StrictVersion("0.8.0")
   ''', check: false)
-//Some hashtags in below uses for skipping the mako version check which causes errors when building even after mako is installed on your device
-#if has_mako.returncode() != 0
-# error('Python (3.x) mako module >= 0.8.0 required to build mesa.')
+# Some hashtags in below uses for skipping the mako version check which causes errors when building even after mako is installed on your device.
+# if has_mako.returncode() != 0
+#  error('Python (3.x) mako module >= 0.8.0 required to build mesa.')
 #endif
 
 if cc.get_id() == 'gcc' and cc.version().version_compare('< 4.4.6')
