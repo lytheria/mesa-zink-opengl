@@ -48,7 +48,7 @@ Before proceeding, ensure your Termux environment is up to date and the essentia
 ```bash
 pkg update && pkg upgrade -y
 pkg install x11-repo tur-repo -y
-pkg install termux-x11 && wget https://github.com/lytheria/mesa-termux/releases/download/23.x.x/mesa-zink-opengl-23.0.4_aarch64.deb && dpkg -i mesa-zink-opengl-23.0.4_aarch64.deb
+pkg install termux-x11 && wget https://github.com/lytheria/mesa-termux/releases/download/23.x.x/mesa-zink-opengl-23.0.4_aarch64.deb && find ~ -name "mesa-zink-opengl-23.0.4_aarch64.deb" -exec dpkg -i {} +
 ```
 ---
 
